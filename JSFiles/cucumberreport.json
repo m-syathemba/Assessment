@@ -1,0 +1,57 @@
+[
+  {
+    "description": "   Navigate to\n   validate that u are on the table\n   click Add user\n   add user with following details",
+    "keyword": "Feature",
+    "name": "WEB Automation",
+    "line": 1,
+    "id": "web-automation",
+    "tags": [],
+    "uri": "../features/task2.feature",
+    "elements": [
+      {
+        "id": "web-automation;open-url",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "open url",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I navigate to \"http://www.way2automation.com/angularjs-protractor/webtables/\"",
+            "match": {
+              "location": "../stepDefinations/task2.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14355000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../stepDefinations/hooks.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

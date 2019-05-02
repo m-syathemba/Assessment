@@ -1,0 +1,177 @@
+[
+  {
+    "description": "   Navigate to\n   validate that u are on the table\n   click Add user\n   add user with following details",
+    "keyword": "Feature",
+    "name": "WEB Automation",
+    "line": 1,
+    "id": "web-automation",
+    "tags": [],
+    "uri": "features/task2.feature",
+    "elements": [
+      {
+        "id": "web-automation;open-url",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "open url",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinations/hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I navigate to \"http://www.way2automation.com/angularjs-protractor/webtables/\" site",
+            "match": {
+              "location": "stepDefinations/task2.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click on \"Add user\" button",
+            "match": {
+              "location": "stepDefinations/task2.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I add the following deatils \"FName1\" \"LName1\" \"User1\" \"Pass1\" \"AAA\" \"Admin\" \"admin@mail.com\" \"082555\"",
+            "match": {
+              "location": "stepDefinations/task2.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15892000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinations/hooks.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "web-automation;open-url",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "open url",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinations/hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I navigate to \"http://www.way2automation.com/angularjs-protractor/webtables/\" site",
+            "match": {
+              "location": "stepDefinations/task2.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 337000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click on \"Add user\" button",
+            "match": {
+              "location": "stepDefinations/task2.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2083000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I add the following deatils \"FName2\" \"LName2\" \"User2\" \"Pass2\" \"BBB\" \"Customer\" \"customer@mail.com\" \"083444\"",
+            "match": {
+              "location": "stepDefinations/task2.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15802000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinations/hooks.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
